@@ -1,4 +1,63 @@
-body {background-color:tan;}
-h1{color:green;}
+body 
+{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+}
+
+h1
+{
+    color:rgb(124, 128, 124);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#form_background{
+    background-color: white;
+    width: 30%;
+    border-radius: 1pc;
+    padding: 10px;
+}
+
+.form{
+    display: table;
+}
+
+.inputs{
+    display: table-row;
+}
+
+input{
+    display: table-cell;
+
+    margin-top: 10px;
+}
+
+label{
+    display: table-cell;
+}
+
+#years{
+    width: 50px;
+}
+
+#rate{
+    width: 60%;
+    vertical-align: -5px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+#copyright{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+button{
+    margin-top: 10px;
+}
 
 
